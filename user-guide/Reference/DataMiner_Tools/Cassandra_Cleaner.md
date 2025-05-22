@@ -25,7 +25,12 @@ There are two configuration files present in the root directory of the tool:
 
 - *settings.yaml*: Contains application-specific settings.
 
-If these files are not present, generate them by running the executable with the `generate -c` arguments. As soon as the files have been generated, the tool will stop running. This allows you to first configure the files and then run the tool with the proper configuration.
+If these files are not present, generate them by running the SLDataGateway.Tools.Cassandra.Database.exe executable with the `generate -c` arguments. As soon as the files have been generated, the tool will stop running. This allows you to first configure the files and then run the tool with the proper configuration.
+
+From Windows Command Line / PowerShell on the tool directory:
+PS C:\Users\JuanNA\Downloads\Cassandra-Cleaner\Release> .\SLDataGateway.Tools.Cassandra.Database.exe generate -c
+
+
 
 ### db.yaml
 
